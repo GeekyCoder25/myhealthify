@@ -1,0 +1,50 @@
+.linkContainer {
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  gap: 2rem;
+}
+
+.linkContainer a {
+  padding: 1.5rem;
+  text-transform: capitalize;
+  color: #000;
+  text-decoration: none;
+}
+
+#active {
+  border-right: solid 5px #0e9f6b;
+}
+
+/* #active img {
+  filter: opacity(1) drop-shadow(blue);
+} */
+
+#active a {
+  color: #0e9f6b;
+}
+
+.dropdownLinkContainer {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.dropdownLink {
+  margin-left: 2rem;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.dropdownLink a {
+  text-decoration: none;
+  color: #8c92ab;
+}
+
+/* .icon {
+  width: 20px;
+  height: 20px;
+}
+*/

@@ -1,0 +1,39 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  box-shadow: 0px 2px 25px rgba(213, 219, 226, 0.5);
+}
+
+.logoContainer {
+  display: flex;
+  gap: 2.2rem;
+  align-items: center;
+}
+
+.asideNav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.refer {
+  display: flex;
+  align-items: center;
+  border-right: solid 2px #f0f2f6;
+  gap: 10px;
+}
+
+.refer p {
+  color: #0e9f6b;
+}
+
+.navIcon {
+  display: flex;
+  gap: 1rem;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
