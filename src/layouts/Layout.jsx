@@ -1,17 +1,16 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 const Layout = ({ children }) => {
-  return (
-    <>
-      <Wrapper>{children}</Wrapper>
-    </>
-  );
+	return (
+		<>
+			<Wrapper>{children}</Wrapper>
+		</>
+	);
 };
 
 const Wrapper = styled.main`
-  display: grid;
-  grid-template-columns: 20% 80%;
-  height: 100vh;
+	display: flex;
+	height: 100vh;
 `;
 
 export default Layout;

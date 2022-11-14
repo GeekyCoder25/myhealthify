@@ -1,0 +1,86 @@
+.userData > div {
+	display: flex;
+	justify-content: space-between;
+	margin: 3.125rem auto;
+	gap: 20px;
+	width: 100%;
+	overflow-y: scroll;
+	scrollbar-width: none;
+}
+.userData > div::-webkit-scrollbar {
+	display: none;
+}
+.userData > div > div {
+	border: 1px solid rgba(3, 5, 61, 0.2);
+	border-radius: 10px;
+	padding: 20px;
+	min-width: 20.3125rem;
+	height: 13rem;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.balance {
+	font-weight: 900;
+}
+.rise {
+	background-color: #c8ffc7;
+	color: #0d7d0b;
+	border-radius: 6.25rem;
+	padding: 0.3125rem 0.9375rem;
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	width: fit-content;
+}
+.fall {
+	background-color: #ffc0cc;
+	color: #fb2047;
+	border-radius: 6.25rem;
+	padding: 5px 0.9375rem;
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	width: fit-content;
+}
+.userData header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.userData header h1 {
+	font-weight: 600;
+}
+.userData button {
+	padding: 10px 32px;
+	background: #03053d;
+	border-radius: 100px;
+	color: #fff;
+	font-weight: 600;
+}
+
+.userData section {
+	display: flex;
+	/* align-items: cente r; */
+	justify-content: space-between;
+	gap: 3.125rem;
+}
+.userData > section::-webkit-scrollbar {
+	display: none;
+}
+.userData section > div {
+	border: 1px solid rgba(3, 5, 61, 0.2);
+	border-radius: 10px;
+	width: 100%;
+	min-height: 400px;
+	padding: 20px;
+	overflow: hidden;
+	scrollbar-width: none;
+	position: relative;
+}
+.history div {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
