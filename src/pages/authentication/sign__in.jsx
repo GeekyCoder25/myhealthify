@@ -19,7 +19,7 @@ function SignIn() {
 					<h1>Welcome Back Fam 🤝</h1>
 					<p>We hope you have been better. All we care about is your health.</p>
 				</div>
-				<form action="" onSubmit={() => navigate('/clinic')}>
+				<form action="" onSubmit={() => navigate('/dashboard')}>
 					<CustomizeInputField
 						type="text"
 						name="Email"
