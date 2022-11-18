@@ -1,0 +1,257 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+}
+
+.btn {
+  background: #0e9f6b;
+  padding: 0.7rem 1rem;
+  border-radius: 100px;
+  color: #fff;
+  outline: none;
+  border: none;
+
+  &:hover {
+    border: solid 1px #0e9f6b;
+    color: #0e9f6b;
+  }
+}
+
+.sec-btn {
+  border: solid 1px #313545;
+  color: #313545;
+  background: transparent;
+}
+
+// navbar
+nav ul {
+  @media screen and (min-width: 992px) {
+    align-items: center;
+  }
+}
+// section 1
+#text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: center;
+
+  h1 {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+}
+
+#image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+// aside
+.trusted {
+  figure {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+
+    @media screen and (min-width: 768px) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    img {
+      width: 8rem;
+    }
+  }
+}
+
+// section 2
+#image-sec {
+  display: flex;
+  justify-content: center;
+
+  @media screen and (min-width: 992px) {
+    justify-content: start;
+  }
+}
+
+#details {
+  h2 {
+    text-align: center;
+  }
+  .queues-cover {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    align-content: center;
+
+    p {
+      color: #808080;
+    }
+  }
+
+  aside {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 2rem 0;
+  }
+
+  .btn-cont {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+
+    @media screen and (min-width: 992px) {
+      justify-content: start;
+    }
+  }
+}
+
+// section 3
+.full-bleed {
+  box-shadow: 0 0 0 100vmax #f8f8f8;
+  clip-path: inset(0 -100vmax);
+}
+
+.card-container {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+
+  @media screen and (min-width: 992px) {
+    gap: 10rem;
+  }
+
+  .card {
+    padding: 1rem 1rem 0 1rem;
+    outline: none;
+    border: none;
+    background: #ffffff;
+    border: 0.463883px solid rgba(128, 128, 128, 0.2);
+    box-shadow: 0px 4.63883px 9.27765px rgba(0, 0, 0, 0.05);
+    border-radius: 16.6998px;
+
+    .card-title {
+      margin: 1rem 0;
+    }
+
+    .card-text ul {
+      color: #808080;
+
+      li {
+        margin-top: 0.5rem;
+      }
+    }
+  }
+}
+
+//section 4
+.newsletter {
+  div {
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    form {
+      display: flex;
+      margin-top: 2rem;
+      flex-direction: column;
+      gap: 1rem;
+      align-items: center;
+
+      @media screen and (min-width: 768px) {
+        flex-direction: row;
+        gap: 0;
+        align-items: stretch;
+      }
+
+      .input {
+        background: #ffffff;
+        border: solid 1px #808080;
+        outline: none;
+        padding: 1rem 0 1rem 1rem;
+
+        &::placeholder {
+          color: rgba(128, 128, 128, 0.5);
+        }
+
+        width: 20rem;
+        border-radius: 10px;
+
+        @media screen and (min-width: 768px) {
+          width: 30rem;
+          border-radius: 10px 0 0 10px;
+        }
+      }
+
+      .button {
+        background: #0e9f6b;
+        border-radius: 10px;
+        padding: 0.5rem 1.5rem;
+        outline: none;
+        border: none;
+        color: #fff;
+
+        @media screen and (min-width: 768px) {
+          border-radius: 0px 10px 10px 0px;
+        }
+      }
+    }
+  }
+}
+
+// footer
+.footer-full-bleed {
+  box-shadow: 0 0 0 100vmax #313545;
+  clip-path: inset(0 -100vmax);
+}
+
+footer {
+  div {
+    color: #fff;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    p {
+      text-align: center;
+    }
+
+    ul {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+
+      li {
+        list-style: none;
+
+        a {
+          color: #fff;
+          text-decoration: none;
+
+          &:hover {
+            color: #fff;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}

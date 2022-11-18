@@ -1,0 +1,238 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+p {
+	margin: 0;
+}
+
+.btn {
+	background: #ee7f00;
+	padding: 0.7rem 1rem;
+	border-radius: 100px;
+	color: #fff;
+	outline: none;
+	border: none;
+}
+.btn:hover {
+	border: solid 1px #ee7f00;
+	color: #ee7f00;
+}
+
+.sec-btn {
+	border: solid 1px #313545;
+	color: #313545;
+	background: transparent;
+}
+
+@media screen and (min-width: 992px) {
+	nav ul {
+		align-items: center;
+	}
+}
+
+#text {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+	justify-content: center;
+}
+#text h1 {
+	font-size: 3rem;
+	font-weight: 700;
+}
+
+#image {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+}
+
+.trusted figure {
+	margin-top: 1rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+	align-items: center;
+}
+@media screen and (min-width: 768px) {
+	.trusted figure {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+}
+.trusted figure img {
+	width: 8rem;
+}
+
+#image-sec {
+	display: flex;
+	justify-content: center;
+}
+@media screen and (min-width: 992px) {
+	#image-sec {
+		justify-content: start;
+	}
+}
+
+#details h2 {
+	text-align: center;
+}
+#details .queues-cover {
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+	align-content: center;
+}
+#details .queues-cover p {
+	color: #808080;
+}
+#details aside {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	margin: 2rem 0;
+}
+#details .btn-cont {
+	display: flex;
+	gap: 2rem;
+	justify-content: center;
+}
+@media screen and (min-width: 992px) {
+	#details .btn-cont {
+		justify-content: start;
+	}
+}
+
+.full-bleed {
+	box-shadow: 0 0 0 100vmax #f8f8f8;
+	-webkit-clip-path: inset(0 -100vmax);
+	clip-path: inset(0 -100vmax);
+}
+
+.card-container {
+	display: flex;
+	gap: 2rem;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 2rem 0;
+}
+@media screen and (min-width: 992px) {
+	.card-container {
+		gap: 10rem;
+	}
+}
+.card-container .card {
+	padding: 1rem 1rem 0 1rem;
+	outline: none;
+	border: none;
+	background: #ffffff;
+	border: 0.463883px solid rgba(128, 128, 128, 0.2);
+	box-shadow: 0px 4.63883px 9.27765px rgba(0, 0, 0, 0.05);
+	border-radius: 16.6998px;
+}
+.card-container .card .card-title {
+	margin: 1rem 0;
+}
+.card-container .card .card-text ul {
+	color: #808080;
+}
+.card-container .card .card-text ul li {
+	margin-top: 0.5rem;
+}
+
+.newsletter div {
+	padding: 5rem 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.newsletter div form {
+	display: flex;
+	margin-top: 2rem;
+	flex-direction: column;
+	gap: 1rem;
+	align-items: center;
+}
+@media screen and (min-width: 768px) {
+	.newsletter div form {
+		flex-direction: row;
+		gap: 0;
+		align-items: stretch;
+	}
+}
+.newsletter div form .input {
+	background: #ffffff;
+	border: solid 1px #808080;
+	outline: none;
+	padding: 1rem 0 1rem 1rem;
+	width: 20rem;
+	border-radius: 10px;
+}
+.newsletter div form .input::-moz-placeholder {
+	color: rgba(128, 128, 128, 0.5);
+}
+.newsletter div form .input:-ms-input-placeholder {
+	color: rgba(128, 128, 128, 0.5);
+}
+.newsletter div form .input::placeholder {
+	color: rgba(128, 128, 128, 0.5);
+}
+@media screen and (min-width: 768px) {
+	.newsletter div form .input {
+		width: 30rem;
+		border-radius: 10px 0 0 10px;
+	}
+}
+.newsletter div form .button {
+	background: #ee7f00;
+	border-radius: 10px;
+	padding: 0.5rem 1.5rem;
+	outline: none;
+	border: none;
+	color: #fff;
+}
+@media screen and (min-width: 768px) {
+	.newsletter div form .button {
+		border-radius: 0px 10px 10px 0px;
+	}
+}
+
+.footer-full-bleed {
+	box-shadow: 0 0 0 100vmax #313545;
+	-webkit-clip-path: inset(0 -100vmax);
+	clip-path: inset(0 -100vmax);
+}
+
+footer div {
+	color: #fff;
+	gap: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+footer div p {
+	text-align: center;
+}
+footer div ul {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+footer div ul li {
+	list-style: none;
+}
+footer div ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+footer div ul li a:hover {
+	color: #fff;
+	text-decoration: underline;
+} /*# sourceMappingURL=styles.css.map */
