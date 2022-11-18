@@ -10,6 +10,7 @@ import ViewReport from './pages/ViewReport';
 import Subscription from './pages/Subscription';
 import HealthCenter from './pages/HealthCenter';
 import Support from './pages/Support';
+import MyHealthify from './components/MyHealthify';
 
 function App() {
 	return (
@@ -23,6 +24,7 @@ function App() {
 				<Route path="/subscription" element={<Subscription />} />
 				<Route path="/support" element={<Support />} />
 				<Route path="/" exact element={<SplashView />} />
+				<Route path="/" exact element={<MyHealthify />} />
 				<Route path="/sign-in" element={<SignIn />} />
 				<Route path="/sign-up" element={<SignUp />} />
 				<Route

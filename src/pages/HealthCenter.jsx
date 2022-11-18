@@ -7,6 +7,7 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import faq from '../assets/faq.png';
 import { useNavigate } from 'react-router-dom';
+import logo from '../assets/aromo.png';
 const HealthCenter = () => {
 	const navigate = useNavigate();
 	// const navigate = useNavigate();
@@ -23,16 +24,16 @@ const HealthCenter = () => {
 		{
 			icon: '/assets/healthcentericon2.png',
 			name: 'Pharmacy',
-			img: '/assets/healthcenteraromokeye.png',
-			title: 'YUSJIB',
+			img: '/assets/aromo.png',
+			title: 'AROMOKEYE',
 			distance: '20km away',
 			link: '/',
 		},
 		{
 			icon: '/assets/healthcentericon3.png',
 			name: 'myHealthify',
-			img: '/assets/healthcentermyHealthify.png',
-			title: 'YUSJIB',
+			img: '/assets/healthcentersecretdee.png',
+			title: 'SECREETDEE',
 			distance: '20km away',
 			link: '/',
 		},
@@ -40,13 +41,14 @@ const HealthCenter = () => {
 			icon: '/assets/healthcentericon4.png',
 			name: 'Provision Store 	',
 			img: '/assets/healthcenteredinwo.png',
-			title: 'YUSJIB',
+			title: 'EDINWO',
 			distance: '20km away',
 			link: '/',
 		},
 	];
 	return (
 		<>
+			<img src={logo} alt="" />
 			<Navbar />
 			<Layout>
 				<Sidebar />
